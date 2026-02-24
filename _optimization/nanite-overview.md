@@ -20,7 +20,7 @@ Nanite는 UE5의 가상 폴리곤 시스템으로, 수억 폴리곤의 메시를
 
 
 ## 그림 테스트
-<img width="1408" height="752" alt="Gemini_Generated_Image_hb0suchb0suchb0s" src="https://github.com/user-attachments/assets/299f95df-dedd-4179-8faf-45c79e7bebbf" />
+<img alt="그림 테스트" src="https://github.com/user-attachments/assets/299f95df-dedd-4179-8faf-45c79e7bebbf" />
 
 
 ## 영상 테스트
