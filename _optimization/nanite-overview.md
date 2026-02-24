@@ -1,6 +1,7 @@
 ---
 title: "Nanite Overview"
 summary: "UE5 Nanite 가상 폴리곤 시스템 개요"
+locked: true
 ---
 
 ## 개요
