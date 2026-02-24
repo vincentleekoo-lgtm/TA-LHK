@@ -24,3 +24,8 @@ Nanite는 UE5의 가상 폴리곤 시스템으로, 수억 폴리곤의 메시를
 
 
 ## 영상 테스트
+
+
+https://github.com/user-attachments/assets/b1aaae6a-bf45-48e7-b729-8343520776af
+
+
