@@ -1,25 +1,55 @@
-# Optimization
-
-[← 돌아가기](../)
-
+---
+layout: none
+title: Optimization | TA-LHK
 ---
 
-Unreal Engine 5.6 기반의 최적화 작업들을 정리한 페이지입니다.
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+.header { background: linear-gradient(135deg, #1a2a4a 0%, #0d1117 60%); border-bottom: 1px solid #30363d; padding: 40px 40px 30px; }
+.header .back { color: #58a6ff; text-decoration: none; font-size: 0.9em; display: inline-block; margin-bottom: 12px; }
+.header .back:hover { text-decoration: underline; }
+.header h1 { font-size: 2em; font-weight: 700; color: #58a6ff; }
+.container { max-width: 900px; margin: 0 auto; padding: 48px 24px; }
+.section { margin-bottom: 40px; }
+.section h2 { font-size: 1.2em; color: #58a6ff; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #30363d; }
+.section ul { list-style: none; padding: 0; }
+.section ul li { padding: 8px 0; color: #c9d1d9; border-bottom: 1px solid #21262d; font-size: 0.95em; }
+.section ul li::before { content: '▸ '; color: #58a6ff; }
+.note { background: #161b22; border: 1px solid #30363d; border-left: 3px solid #58a6ff; border-radius: 6px; padding: 14px 18px; color: #8b949e; font-size: 0.9em; margin-top: 32px; }
+</style>
 
-## 작업 목록
+<div class="header">
+  <a class="back" href="../">← 포트폴리오로 돌아가기</a>
+  <h1>Optimization</h1>
+</div>
 
-### World Partition
-- 대규모 오픈월드 Level Streaming 최적화
-- HLOD 설정 및 Cell 로딩 제어
+<div class="container">
+  <p style="color:#8b949e; margin-bottom:32px;">Unreal Engine 5.6 기반의 최적화 작업들을 정리한 페이지입니다.</p>
 
-### Nanite & Lumen
-- Nanite Mesh 전환 파이프라인
-- Lumen 성능 프로파일링 및 튜닝
+  <div class="section">
+    <h2>World Partition</h2>
+    <ul>
+      <li>대규모 오픈월드 Level Streaming 최적화</li>
+      <li>HLOD 설정 및 Cell 로딩 제어</li>
+    </ul>
+  </div>
 
-### Performance Profiling
-- Unreal Insights 활용
-- GPU 병목 지점 분석
+  <div class="section">
+    <h2>Nanite &amp; Lumen</h2>
+    <ul>
+      <li>Nanite Mesh 전환 파이프라인</li>
+      <li>Lumen 성능 프로파일링 및 튜닝</li>
+    </ul>
+  </div>
 
----
+  <div class="section">
+    <h2>Performance Profiling</h2>
+    <ul>
+      <li>Unreal Insights 활용</li>
+      <li>GPU 병목 지점 분석</li>
+    </ul>
+  </div>
 
-> 작업 내용은 지속적으로 추가될 예정입니다.
+  <div class="note">작업 내용은 지속적으로 추가될 예정입니다.</div>
+</div>
