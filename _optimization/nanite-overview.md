@@ -1,4 +1,4 @@
-<img width="1408" height="752" alt="Gemini_Generated_Image_hb0suchb0suchb0s" src="https://github.com/user-attachments/assets/3d76fc26-fb33-4fda-aa15-4fdbc4f6a7fd" />---
+---
 title: "Nanite Overview"
 summary: "UE5 Nanite 가상 폴리곤 시스템 개요"
 ---
