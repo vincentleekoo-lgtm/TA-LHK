@@ -30,7 +30,7 @@ layout: default
       const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
       const hashArray = Array.from(new Uint8Array(hashBuffer));
       const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-      const res = await fetch('/password.json');
+              const res = await fetch('/password.json', {cache: 'no-store'});
       const data = await res.json();
       if (hashHex === data.hash) {
         document.getElementById('lock-screen').style.display = 'none';
